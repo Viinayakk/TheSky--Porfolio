@@ -1,0 +1,12 @@
+.Toastify__progress-bar--success {
+  background: #015DFD;
+}
+
+.Toastify__toast--success {
+  min-height: 90px;
+  min-width: 450px;
+  background-color: #0a0b10;
+  color: #ffffff;
+  border: 1px solid rgba(1, 93, 253, 0.3);
+}
+
