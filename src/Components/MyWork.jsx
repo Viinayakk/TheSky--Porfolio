@@ -55,7 +55,9 @@ function MyWork() {
   // Auto-play modal video when opened
   useEffect(() => {
     if (activeVideo && modalVideoRef.current) {
-      modalVideoRef.current.play()
+      modalVideoRef.current.play().catch((err) => {
+        console.warn("Autoplay prevented or video load failed:", err)
+      })
     }
   }, [activeVideo])
 
@@ -92,9 +94,11 @@ function MyWork() {
               playsInline
               preload="metadata"
               className="work-card-video-thumb"
-              onMouseEnter={(e) => e.target.play()}
+              onMouseEnter={(e) => { e.target.play().catch(() => {}) }}
               onMouseLeave={(e) => { e.target.pause(); e.target.currentTime = 0 }}
-            />
+            >
+              <source src={work.w_video} type={work.w_video.endsWith('.mov') ? 'video/quicktime' : 'video/mp4'} />
+            </video>
             <div className="work-card-play-btn">
               <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
                 <path d="M8 5v14l11-7z" />
@@ -212,7 +216,9 @@ function MyWork() {
               autoPlay
               playsInline
               className="video-modal-player"
-            />
+            >
+              <source src={activeVideo} type={activeVideo.endsWith('.mov') ? 'video/quicktime' : 'video/mp4'} />
+            </video>
           </div>
         </div>
       )}

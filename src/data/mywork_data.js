@@ -17,21 +17,21 @@ const mywork_data = [
     {
         w_no: 15,
         w_name: "Logo Designing",
-        w_video: "/My content 1.mp4",
+        w_video: "/my_content_1.mp4",
         w_category: "myvideos",
         w_desc: "Creative logo design process showcase"
     },
     {
         w_no: 16,
         w_name: "Movie Review",
-        w_video: "/My content 2.mp4",
+        w_video: "/my_content_2.mp4",
         w_category: "myvideos",
         w_desc: "Engaging movie review video edit"
     },
     {
         w_no: 20,
         w_name: "Jazba Teaser",
-        w_video: "/JAZBA  (teaser type).mp4",
+        w_video: "/jazba_teaser.mp4",
         w_category: "myvideos",
         w_desc: "High-energy teaser video edit"
     },
@@ -40,35 +40,35 @@ const mywork_data = [
     {
         w_no: 1,
         w_name: "Robotics Edit",
-        w_video: "/EDIT 1 ROBOTICS 123.mp4",
+        w_video: "/edit_1_robotics_123.mp4",
         w_category: "video",
         w_desc: "Dynamic robotics promo video"
     },
     {
         w_no: 2,
         w_name: "MJ Edit",
-        w_video: "/MJ EDIT 2.mp4",
+        w_video: "/mj_edit_2.mp4",
         w_category: "video",
         w_desc: "Cinematic music video edit"
     },
     {
         w_no: 3,
         w_name: "Reel Edit",
-        w_video: "/REEL 3kkkk.mov",
+        w_video: "/reel_3kkkk.mov",
         w_category: "video",
         w_desc: "Trending social media reel"
     },
     {
         w_no: 4,
         w_name: "UGC Edit",
-        w_video: "/UGC EDIT 1.mp4",
+        w_video: "/ugc_edit_1.mp4",
         w_category: "video",
         w_desc: "User-generated content edit"
     },
     {
         w_no: 5,
         w_name: "Shortfilm Glimpse",
-        w_video: "/Shortfilm Glimpse.mp4",
+        w_video: "/shortfilm_glimpse.mp4",
         w_category: "video",
         w_desc: "Cinematic short film teaser edit"
     },
