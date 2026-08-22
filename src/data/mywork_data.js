@@ -54,7 +54,7 @@ const mywork_data = [
     {
         w_no: 3,
         w_name: "Reel Edit",
-        w_video: "/reel_3kkkk.mov",
+        w_video: "/reel_3kkkk.mp4",
         w_category: "video",
         w_desc: "Trending social media reel"
     },
