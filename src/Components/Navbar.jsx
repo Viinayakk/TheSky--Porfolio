@@ -44,9 +44,6 @@ function Navbar() {
             <AnchorLink href="#about" className="nav-link">About Me</AnchorLink>
           </li>
           <li>
-            <AnchorLink href="#services" className="nav-link">Services</AnchorLink>
-          </li>
-          <li>
             <AnchorLink href="#work" className="nav-link">My Work</AnchorLink>
           </li>
           <li>
@@ -71,7 +68,6 @@ function Navbar() {
           <ul className="mobile-menu">
             <li><AnchorLink href="#" onClick={closeMenu}>Home</AnchorLink></li>
             <li><AnchorLink href="#about" onClick={closeMenu}>About Me</AnchorLink></li>
-            <li><AnchorLink href="#services" onClick={closeMenu}>Services</AnchorLink></li>
             <li><AnchorLink href="#work" onClick={closeMenu}>My Work</AnchorLink></li>
             <li><AnchorLink href="#contact" onClick={closeMenu}>Contact</AnchorLink></li>
           </ul>

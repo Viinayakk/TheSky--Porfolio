@@ -52,15 +52,15 @@
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 36px;
+  gap: 52px;
   align-items: center;
 }
 
 .nav-link {
   position: relative;
-  font-size: 16px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   padding: 8px 0;
   transition: color 0.3s ease, transform 0.3s ease;
@@ -94,10 +94,10 @@
 .connect-me {
   position: relative;
   overflow: hidden;
-  padding: 12px 28px;
+  padding: 13px 30px;
   background: #015DFD;
   border-radius: 40px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   box-shadow: 0 4px 20px rgba(1, 93, 253, 0.4);
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);

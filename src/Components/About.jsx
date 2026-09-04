@@ -26,9 +26,12 @@ function About() {
 
         <div className='about-right flex flex-col gap-6 justify-between'>
           <div className='flex flex-col gap-5 text-xl'>
-          <p>My Design and Editing Approach Goes beyond visual appeal I focus on storytelling that connects with audience and drives meaningful engagement. 
-          </p>
-          <p> I specialise in crafting content for social media that not only captures attention but Strengthens brand identity and supports overall growth.  </p>
+            <p>
+              Hey there! I'm <span className="font-semibold text-[#ff004f]">Bhupendra Prajapati (aka Sky)</span>, a photographer and video editor. I work as a freelancer in video editing, as well as a pre-wedding and wedding photographer.
+            </p>
+            <p>
+              I love exploring the city and capturing new stories. For the past two years, I've been capturing street photography across Mumbai—check out my works below!
+            </p>
           </div>
         
           <div className="experience-timeline flex flex-col gap-6">

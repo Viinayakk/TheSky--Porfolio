@@ -55,7 +55,7 @@ const onSubmit = async (event) => {
         <div className="contact-left flex flex-col gap-6 flex-1">
           <h1 className="contact-subheading text-5xl font-bold">Let's talk</h1>
           <p className="contact-desc leading-8 text-[18px] text-gray-300">
-            I am currently available to take new Projects. Feel free to message me about anything that you want me to work on, you can contact me anytime.
+           I am looking forward to new projects. You can contact me directly anytime at my number
           </p>
 
           <div className="contact-details flex flex-col gap-5 text-[18px]">

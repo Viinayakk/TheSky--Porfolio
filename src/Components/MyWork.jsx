@@ -1,14 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import './MyWork.css'
 import mywork_data from '../data/mywork_data.js'
 import RecentWorks from '/Images/RecentWorks.png'
 
 const tabs = [
   { key: 'all', label: 'All Projects' },
-  { key: 'video', label: 'Video Projects' },
-  { key: 'graphic', label: 'Graphic Designs' },
+  { key: 'video', label: 'Video Editing' },
+  { key: 'graphic', label: 'Photography' },
   { key: 'logo', label: 'Logo Designs' },
-  { key: 'myvideos', label: 'Videography' },
+  { key: 'myvideos', label: 'Filming' },
 ]
 
 function MyWork() {
@@ -200,7 +201,7 @@ function MyWork() {
       )}
 
       {/* ===== Video Modal ===== */}
-      {activeVideo && (
+      {activeVideo && createPortal(
         <div className="video-modal-backdrop" onClick={closeVideoModal}>
           <div className="video-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="video-modal-close" onClick={closeVideoModal} aria-label="Close video">
@@ -220,11 +221,12 @@ function MyWork() {
               <source src={activeVideo} type={activeVideo.endsWith('.mov') ? 'video/quicktime' : 'video/mp4'} />
             </video>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
 
       {/* ===== Image Modal ===== */}
-      {activeImage && (
+      {activeImage && createPortal(
         <div className="video-modal-backdrop" onClick={closeImageModal}>
           <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
             <button className="video-modal-close" onClick={closeImageModal} aria-label="Close image preview">
@@ -239,7 +241,8 @@ function MyWork() {
               <p>{activeImage.w_desc}</p>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   )

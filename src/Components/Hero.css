@@ -5,31 +5,58 @@
   align-items: center;
   gap: 20px;
 }
-.hero-connectme:hover{
+
+.hero-connectme:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 30px rgba(1, 93, 253, 0.6);
   background: #004ee3;
 }
-.hero-resume:hover{
+
+.hero-resume:hover {
   transform: scale(1.05);
   border-color: #015DFD;
   background: rgba(1, 93, 253, 0.15);
   box-shadow: 0 4px 20px rgba(1, 93, 253, 0.3);
 }
 
-/* Image Container & Minimal Aura Glow */
-.hero-img-wrapper {
+/* Video Container & Minimal Aura Glow */
+.hero-video-wrapper {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 620px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6), 0 0 30px rgba(1, 93, 253, 0.35);
+  border: 2px solid rgba(1, 93, 253, 0.5);
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+.hero-video-wrapper:hover {
+  border-color: #015DFD;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.7), 0 0 45px rgba(1, 93, 253, 0.6);
+  transform: translateY(-2px);
+}
+
+.hero-video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+  z-index: 2;
+  position: relative;
 }
 
 .hero-img-glow {
   position: absolute;
-  width: 380px;
-  height: 380px;
+  width: 500px;
+  height: 300px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(1, 93, 253, 0.35) 0%, rgba(96, 165, 250, 0.12) 55%, transparent 70%);
   filter: blur(35px);
@@ -43,45 +70,11 @@
     transform: scale(0.95);
     opacity: 0.6;
   }
+
   100% {
     transform: scale(1.08);
     opacity: 0.85;
   }
-}
-
-.hero-img-border-ring {
-  position: absolute;
-  inset: -5px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #015DFD 0%, #60A5FA 50%, #00e5ff 100%);
-  z-index: 1;
-  opacity: 0.8;
-  transition: all 0.4s ease;
-  box-shadow: 0 0 25px rgba(1, 93, 253, 0.4);
-}
-
-.hero-img-wrapper:hover .hero-img-border-ring {
-  opacity: 1;
-  box-shadow: 0 0 45px rgba(1, 93, 253, 0.65);
-}
-
-.bhupi {
-  position: relative;
-  z-index: 2;
-  width: 370px;
-  height: 370px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  border: 3px solid #080B10;
-  filter: brightness(1.04) contrast(1.05) saturate(1.08);
-  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.4);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-img-wrapper:hover .bhupi {
-  transform: scale(1.03);
-  filter: brightness(1.08) contrast(1.08) saturate(1.12);
 }
 
 /* Heading */
@@ -199,4 +192,3 @@
     padding: 15px 30px;
   }
 }
-

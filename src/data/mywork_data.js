@@ -1,8 +1,13 @@
-import graphic_work_1 from '/Images/graphic_work_1.jpg'
-import graphic_work_2 from '/Images/graphic_work_2.jpg'
-import graphic_work_3 from '/Images/graphic_work_3.jpg'
-import graphic_work_4 from '/Images/graphic_work_4.jpg'
-import graphic_work_5 from '/Images/graphic_work_5.jpg'
+import photo_1 from '/Images/Photography/1.png'
+import photo_2 from '/Images/Photography/2.png'
+import photo_3 from '/Images/Photography/3.png'
+import photo_4 from '/Images/Photography/4.png'
+import photo_5 from '/Images/Photography/6.png'
+import photo_6 from '/Images/Photography/20260820_181834.jpg'
+import photo_7 from '/Images/Photography/CG1.jpg'
+import photo_8 from '/Images/Photography/CGC4.jpg'
+import photo_9 from '/Images/Photography/S1 1.jpg'
+
 import graphic_work_6 from '/Images/Backup_of_INFRABIT IT SOLUTIONS new green.jpg'
 import graphic_work_7 from '/Images/Backup_of_KIZOMI EVENTS 2,999.jpg'
 import graphic_work_9 from '/Images/RAMA SURGICALS LOGO 2.jpg'
@@ -10,10 +15,10 @@ import infrabit_client from '/Images/infrabit client.png'
 import kizomi_client from '/Images/Kizomi Client.png'
 import rama_client from '/Images/rama clients.jpeg'
 
-// Categories: "all", "video", "graphic"
+// Categories: "all", "video", "graphic", "logo", "myvideos"
 const mywork_data = [
 
-    // --- My Personal Videos ---
+    // --- My Personal Videos / Filming ---
     {
         w_no: 15,
         w_name: "Logo Designing",
@@ -34,6 +39,20 @@ const mywork_data = [
         w_video: "/jazba_teaser.mp4",
         w_category: "myvideos",
         w_desc: "High-energy teaser video edit"
+    },
+    {
+        w_no: 25,
+        w_name: "Crown Garnet Reel",
+        w_video: "/Filming/CROWN GARNET REEL 1.mp4",
+        w_category: "myvideos",
+        w_desc: "Cinematic Crown Garnet Filming Reel"
+    },
+    {
+        w_no: 26,
+        w_name: "Filming Reel 2",
+        w_video: "/Filming/REEL2.mp4",
+        w_category: "myvideos",
+        w_desc: "Creative Filming & Videography Reel"
     },
 
     // --- Video Projects ---
@@ -72,42 +91,77 @@ const mywork_data = [
         w_category: "video",
         w_desc: "Cinematic short film teaser edit"
     },
+    {
+        w_no: 27,
+        w_name: "Lepakshi Edit",
+        w_video: "/LIPAKSHI EDIT 1.mp4",
+        w_category: "video",
+        w_desc: "Cinematic Lepakshi video edit"
+    },
 
-    // --- Graphic Designs ---
+    // --- Photography / Graphic Designs ---
     {
         w_no: 7,
-        w_name: "Podcast Design",
-        w_img: graphic_work_1,
+        w_name: "Photography Shot 1",
+        w_img: photo_1,
         w_category: "graphic",
-        w_desc: "Podcast social media post"
+        w_desc: "Street & Urban Photography"
     },
     {
         w_no: 8,
-        w_name: "Podcast Design",
-        w_img: graphic_work_2,
+        w_name: "Photography Shot 2",
+        w_img: photo_2,
         w_category: "graphic",
-        w_desc: "Podcast social media post"
+        w_desc: "Street & Urban Photography"
     },
     {
         w_no: 9,
-        w_name: "Logistics Poster",
-        w_img: graphic_work_3,
+        w_name: "Photography Shot 3",
+        w_img: photo_3,
         w_category: "graphic",
-        w_desc: "Friendly Logistic brand poster"
+        w_desc: "Street & Urban Photography"
     },
     {
         w_no: 10,
-        w_name: "Yacht Rental Ad",
-        w_img: graphic_work_4,
+        w_name: "Photography Shot 4",
+        w_img: photo_4,
         w_category: "graphic",
-        w_desc: "Aquavo yacht rental design"
+        w_desc: "Street & Urban Photography"
     },
     {
         w_no: 11,
-        w_name: "Partners Poster",
-        w_img: graphic_work_5,
+        w_name: "Photography Shot 5",
+        w_img: photo_5,
         w_category: "graphic",
-        w_desc: "Trusted partners design"
+        w_desc: "Street & Urban Photography"
+    },
+    {
+        w_no: 21,
+        w_name: "Photography Shot 6",
+        w_img: photo_6,
+        w_category: "graphic",
+        w_desc: "Street & Urban Photography"
+    },
+    {
+        w_no: 22,
+        w_name: "Photography Shot 7",
+        w_img: photo_7,
+        w_category: "graphic",
+        w_desc: "Street & Urban Photography"
+    },
+    {
+        w_no: 23,
+        w_name: "Photography Shot 8",
+        w_img: photo_8,
+        w_category: "graphic",
+        w_desc: "Street & Urban Photography"
+    },
+    {
+        w_no: 24,
+        w_name: "Photography Shot 9",
+        w_img: photo_9,
+        w_category: "graphic",
+        w_desc: "Street & Urban Photography"
     },
 
     // --- Logo Designs ---
