@@ -51,8 +51,27 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className="connect-me">
-          <AnchorLink href="#contact">Connect With Me</AnchorLink>
+        <div className="nav-actions">
+          <div className="connect-me">
+            <a
+              href="https://wa.me/919321120345"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>Connect With Me</span>
+              <i className="fa-brands fa-whatsapp connect-whatsapp-icon"></i>
+            </a>
+          </div>
+          <a
+            href="https://www.instagram.com/bhupendra_prajapati_2.0/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-instagram-btn"
+            title="Instagram"
+            aria-label="Instagram"
+          >
+            <i className="fa-brands fa-instagram"></i>
+          </a>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -70,6 +89,17 @@ function Navbar() {
             <li><AnchorLink href="#about" onClick={closeMenu}>About Me</AnchorLink></li>
             <li><AnchorLink href="#work" onClick={closeMenu}>My Work</AnchorLink></li>
             <li><AnchorLink href="#contact" onClick={closeMenu}>Contact</AnchorLink></li>
+            <li>
+              <a
+                href="https://www.instagram.com/skyeditz.1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mobile-instagram-link"
+                onClick={closeMenu}
+              >
+                <i className="fa-brands fa-instagram"></i> Instagram
+              </a>
+            </li>
           </ul>
         )}
       </div>

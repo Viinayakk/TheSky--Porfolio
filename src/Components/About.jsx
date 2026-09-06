@@ -21,7 +21,7 @@ function About() {
       </div>
       <div className="about-sec flex gap-10 items-stretch">
         <div className="about-left">
-          <img className='bhopinder-side' src={bhopinder_side} alt="bhu-image" />
+          <img className='bhopinder-side' src={"./Images/New Pic.png"} alt="bhu-image" />
         </div>
 
         <div className='about-right flex flex-col gap-6 justify-between'>
@@ -41,10 +41,10 @@ function About() {
               <div className="exp-dot"></div>
               <div className="exp-content">
                 <div className="exp-header">
-                  <span className="exp-role">Graphic Designer &amp; Video Editor</span>
+                  <span className="exp-role">Video Editor &amp; Photographer & Videographer</span>
                   <span className="exp-date">2023 — PRESENT</span>
                 </div>
-                <p className="exp-desc">3+ years of experience in the freelance market as a Video Editor and Graphic Designer, crafting compelling visual content that drives engagement and builds brand identity.</p>
+                <p className="exp-desc">3+ years of experience in the freelance market as a Video Editor and photography, and alongside Worked with TV show actors.</p>
               </div>
             </div>
 

@@ -23,7 +23,6 @@ function Hero() {
       </div>
       <h1> <span >I'm Bhupendra Prajapati</span>, <br />A  <ReactTyped data-aos="fade-up" strings={[
         " Editor",
-        " Designer",
         " FreeLancer",
         "Photographer",
         " YouTuber"

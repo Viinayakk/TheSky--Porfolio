@@ -8,8 +8,8 @@ const tabs = [
   { key: 'all', label: 'All Projects' },
   { key: 'video', label: 'Video Editing' },
   { key: 'graphic', label: 'Photography' },
-  { key: 'logo', label: 'Logo Designs' },
   { key: 'myvideos', label: 'Filming' },
+  { key: 'logo', label: 'Logo Designs' },
 ]
 
 function MyWork() {
@@ -107,16 +107,18 @@ function MyWork() {
             </div>
           </>
         ) : (
-          <img src={work.w_img} alt={work.w_name} />
+          <img src={work.w_img} alt={work.w_name || 'Photography'} />
         )}
         <div className="work-card-overlay">
-          <span className="work-card-tag">{work.w_category === 'video' ? '🎬 Video' : work.w_category === 'myvideos' ? '🎥 My Content' : work.w_category === 'client_logo' ? '🌐 Live Client' : work.w_category === 'logo' ? '🏷️ Logo' : '🎨 Graphic'}</span>
+          <span className="work-card-tag">{work.w_category === 'video' ? '🎬 Video' : work.w_category === 'myvideos' ? '🎥 My Content' : work.w_category === 'client_logo' ? '🌐 Live Client' : work.w_category === 'logo' ? '🏷️ Logo' : '📸 Photography'}</span>
         </div>
       </div>
-      <div className="work-card-info">
-        <h3>{work.w_name}</h3>
-        <p>{work.w_desc}</p>
-      </div>
+      {(work.w_name || work.w_desc) && (
+        <div className="work-card-info">
+          {work.w_name && <h3>{work.w_name}</h3>}
+          {work.w_desc && <p>{work.w_desc}</p>}
+        </div>
+      )}
     </div>
   )
 
@@ -165,7 +167,7 @@ function MyWork() {
 
           <div className="graphic-subsection mt-6">
             <div className="subsection-header">
-              <h2>Live Client Websites (Logos in Action)</h2>
+              <h2>Logos in Action (Client Showcase)</h2>
               <span className="subsection-line"></span>
             </div>
             <div className="work-cards-grid">
@@ -235,11 +237,13 @@ function MyWork() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </button>
-            <img src={activeImage.w_img} alt={activeImage.w_name} className="image-modal-img" />
-            <div className="image-modal-caption">
-              <h3>{activeImage.w_name}</h3>
-              <p>{activeImage.w_desc}</p>
-            </div>
+            <img src={activeImage.w_img} alt={activeImage.w_name || 'Photography Preview'} className="image-modal-img" />
+            {(activeImage.w_name || activeImage.w_desc) && (
+              <div className="image-modal-caption">
+                {activeImage.w_name && <h3>{activeImage.w_name}</h3>}
+                {activeImage.w_desc && <p>{activeImage.w_desc}</p>}
+              </div>
+            )}
           </div>
         </div>,
         document.body
