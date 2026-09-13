@@ -36,8 +36,8 @@ function Hero() {
           Get In Touch
         </AnchorLink>
         <a
-          href="/public/RESUME ( Bhupendra Prajapati) copy.pdf"
-          download="RESUME ( Bhupendra Prajapati) copy.pdf"
+          href="/Bhupendra_Prajapati_Resume.pdf"
+          download="Bhupendra_Prajapati_Resume.pdf"
           className='hero-btn hero-btn-secondary'
         >
           Download Resume

@@ -1,9 +1,9 @@
-import project1_img from '/public/Images/project_1.svg'
-import project2_img from '/public/Images/project_2.svg'
-import project3_img from '/public/Images/project_3.svg'
-import project4_img from '/public/Images/project_4.svg'
-import project5_img from '/public/Images/project_5.svg'
-import project6_img from '/public/Images/project_6.svg'
+import project1_img from '/Images/project_1.svg'
+import project2_img from '/Images/project_2.svg'
+import project3_img from '/Images/project_3.svg'
+import project4_img from '/Images/project_4.svg'
+import project5_img from '/Images/project_5.svg'
+import project6_img from '/Images/project_6.svg'
 
 const mywork_data = [
     {
