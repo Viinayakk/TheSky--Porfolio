@@ -44,7 +44,7 @@ function About() {
                   <span className="exp-role">Video Editor &amp; Photographer & Videographer</span>
                   <span className="exp-date">2023 — PRESENT</span>
                 </div>
-                <p className="exp-desc">3+ years of experience in the freelance market as a Video Editor and photography, and alongside Worked with TV show actors.</p>
+                <p className="exp-desc">3+ years of experience in the freelance market as a Video Editor and photographer, and alongside Worked with TV show actors.</p>
               </div>
             </div>
 
