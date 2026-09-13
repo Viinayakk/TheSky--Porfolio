@@ -12,7 +12,7 @@ function Footer() {
       <div className="footer-left flex flex-col justify-center items-center">
        <h1 className=' flex items-center justify-center  gap-20 text-[19px]' >
       &copy;
-      THE SKY &nbsp;2026 &nbsp;| &nbsp;All Rights Reserved.</h1> 
+      THE SKY &nbsp;2026 &nbsp;| &nbsp;So Called Rights Reserved. </h1> 
 
         
        
@@ -21,7 +21,7 @@ function Footer() {
       <div className="footer-right flex flex-col ">
         <div className='navigations flex gap-10'>
           <a href="https://www.linkedin.com/in/bhupendra-prajapati-4502a1273/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i className="icons fa-brands fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/skyeditz.1/" target="_blank" rel="noopener noreferrer" title="Instagram"><i className="icons fa-brands fa-instagram"></i></a>  
+          <a href="https://www.instagram.com/bhupendra_prajapati_2.0/?__pwa=1" target="_blank" rel="noopener noreferrer" title="Instagram"><i className="icons fa-brands fa-instagram"></i></a>  
           <a href="https://www.youtube.com/@The_Sky.1" target="_blank" rel="noopener noreferrer" title="YouTube"><i className="icons fa-brands fa-youtube"></i></a> 
           <a href="https://x.com/skyeditzonig?t=gMZEjFo6aWi6QiHyVJzCKQ&s=09" target="_blank" rel="noopener noreferrer" title="X (Twitter)"><i className="icons fa-brands fa-x-twitter"></i></a>
         </div>

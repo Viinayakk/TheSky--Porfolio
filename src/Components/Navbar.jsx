@@ -63,7 +63,7 @@ function Navbar() {
             </a>
           </div>
           <a
-            href="https://www.instagram.com/bhupendra_prajapati_2.0/?hl=en"
+            href="https://www.instagram.com/bhupendra_prajapati_2.0/?__pwa=1"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-instagram-btn"

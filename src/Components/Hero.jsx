@@ -33,11 +33,11 @@ function Hero() {
       <p>I am a Editor & Photographer from Mumbai, Having 3+ years of Experience With Multiple Cleints(Online & Offline)</p>
       <div className='Hero-cta'>
         <AnchorLink offset={50} href='#contact' className='hero-btn hero-btn-primary'>
-          Connect With Me
+          Get In Touch
         </AnchorLink>
         <a
-          href="/public/Bhupendra Resume.pdf"
-          download="Bhupendra Resume.pdf"
+          href="/public/RESUME ( Bhupendra Prajapati) copy.pdf"
+          download="RESUME ( Bhupendra Prajapati) copy.pdf"
           className='hero-btn hero-btn-secondary'
         >
           Download Resume
